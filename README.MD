@@ -8,7 +8,7 @@ RuleList
 规则列表处理时会自动按照不同的规则格式生成相应的规则,规则列表处理时自动忽略掉不需要的部分!<br>
 通过规则列表生成`Surge/A.BIG.T/Shadowrocket/Potatso/Potatso2/Cross/Hosts`等规则配置文件<br>
 更新规则时也只需要更新规则列表即可,不需要关心不同规则格式的编写的困扰!<br>
-由于一些原因,目前只支持`Basic/Advanced(New)-JSON`规则,不支持`Advanced/Cloud`规则<br>
+由于一些原因,目前只支持`Basic/Advanced`规则,不支持`Advanced/Cloud`规则<br>
 
 鉴权令牌介绍
 ------
