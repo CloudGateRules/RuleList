@@ -774,7 +774,6 @@
         "[SUFFIX]|[cloudfront.com]|[Proxy]",
         "[SUFFIX]|[co.hk]|[Proxy]",
         "[SUFFIX]|[co.uk]|[Proxy]",
-        "[SUFFIX]|[crashlytics.com]|[Proxy]",
         "[SUFFIX]|[debian.org]|[Proxy]",
         "[SUFFIX]|[deck.ly]|[Proxy]",
         "[SUFFIX]|[dropbox.com]|[Proxy]",
