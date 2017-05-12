@@ -21,7 +21,7 @@ RuleList
 
 用户使用方法
 ------
-在`Advanced(New)-JSON`规则末尾找到`List`键名对应键值,填入规则列表URL地址即可!<br>
+在`Advanced`规则末尾找到`List`键名对应键值,填入规则列表URL地址即可!<br>
 `"Other":{"List":"https://raw.githubusercontent.com/BurpSuite/RuleList/master/Default.json"}`<br>
 <br>
 在`Basic`规则是在网址后面加上`List={规则列表地址}`即可!<br>
