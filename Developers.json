@@ -15,11 +15,11 @@
     "Apple": [
         "[!Rule]",
         "<<Apple",
-        "[SUFFIX]|[apple.com]|[DIRECT]",
-        "[SUFFIX]|[icloud.com]|[DIRECT]",
-        "[SUFFIX]|[itunes.com]|[DIRECT]",
-        "[SUFFIX]|[mzstatic.com]|[DIRECT]",
-        "[SUFFIX]|[icloud-content.com]|[DIRECT]"
+        "[SUFFIX]|[apple.com]|[Proxy]",
+        "[SUFFIX]|[icloud.com]|[Proxy]",
+        "[SUFFIX]|[itunes.com]|[Proxy]",
+        "[SUFFIX]|[mzstatic.com]|[Proxy]",
+        "[SUFFIX]|[icloud-content.com]|[Proxy]"
     ],
     "Advanced": [
         "<<PROXY",
