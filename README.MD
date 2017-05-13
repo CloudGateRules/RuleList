@@ -50,7 +50,7 @@ RuleList
 |`[USERAGENT]`|等价USER-AGENT参数|
 |`[SUFFIX]\|[apple.com]\|[DIRECT]\|[]`|DOMAIN第四个字段为预留字段适配新参数,可以为空,可以为多个参数|
 |`[^example]\|[DIRECT]\|[force-remote-dns]`|KEYWORD第三个字段为预留字段适配新参数,可以为空,可以为多个参数|
-|`[10.0.0.0/8]\|[DIRECT]\|[no-resolve]`|IPCIDR第三个字段为预留字段,可以为空,可以为多个参数|
+|`[10.0.0.0/8]\|[DIRECT]\|[no-resolve]`|IP-CIDR第三个字段为预留字段,可以为空,可以为多个参数|
 |`[URLREGEX]\|[\\Example]\|[DIRECT]\|[]`|URL-REGEX第四个字段为预留字段适配新参数,可以为空,可以为多个参数|
 |`[USERAGENT]\|[Example*]\|[DIRECT]\|[]`|USER-AGENT第四个字段为预留字段适配新参数,可以为空,可以为多个参数|
 |`[IPCIDR6]\|[2007::/16]\|[REJECT]\|[]`|IP-CIDR6第四个字段为预留字段适配新参数,可以为空,可以为多个参数|
