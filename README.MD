@@ -49,7 +49,7 @@ RuleList
 |`[URLREGEX]`|等价URL-REGEX参数|
 |`[USERAGENT]`|等价USER-AGENT参数|
 |`[DOMAIN]\|[apple.com]\|[DIRECT]\|[]`|DOMAIN第四个字段为预留字段适配新参数,可以为空,可以为多个参数|
-|`[SUFFIX]\|[apple.com]\|[DIRECT]\|[]`|DOMAIN第四个字段为预留字段适配新参数,可以为空,可以为多个参数|
+|`[SUFFIX]\|[apple.com]\|[DIRECT]\|[]`|SUFFIX第四个字段为预留字段适配新参数,可以为空,可以为多个参数|
 |`[^example]\|[DIRECT]\|[force-remote-dns]`|KEYWORD第三个字段为预留字段适配新参数,可以为空,可以为多个参数|
 |`[10.0.0.0/8]\|[DIRECT]\|[no-resolve]`|IP-CIDR第三个字段为预留字段,可以为空,可以为多个参数|
 |`[URLREGEX]\|[\\Example]\|[DIRECT]\|[]`|URL-REGEX第四个字段为预留字段适配新参数,可以为空,可以为多个参数|
