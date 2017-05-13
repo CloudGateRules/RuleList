@@ -71,3 +71,5 @@ RuleList
 |`Host`|Host规则块|
 |`YouTube`|YouTube规则块|
 |`Rewrite`|Rewrite规则块|
+|`MITM`|MITMHostName规则块|
+|`SKIP`|跳过不开启选项规则块|
