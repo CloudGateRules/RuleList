@@ -1778,6 +1778,7 @@
         "[SUFFIX]|[y0game.com]|[REJECT]",
         "[SUFFIX]|[youzu.com]|[REJECT]",
         "[SUFFIX]|[yunpro.cn]|[REJECT]",
+        "[SUFFIX]|[ymtracking.com]|[REJECT]",
         "[SUFFIX]|[yoyi.tv]|[REJECT]",
         "[SUFFIX]|[yandui.com]|[REJECT]",
         "[SUFFIX]|[youth.cn]|[REJECT]",
