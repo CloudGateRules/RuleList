@@ -1501,6 +1501,7 @@
         "[SUFFIX]|[kukuplay.com]|[REJECT]",
         "[SUFFIX]|[kxbeta.com]|[REJECT]",
         "[SUFFIX]|[kuangtech.com]|[REJECT]",
+        "[SUFFIX]|[konv.co]|[REJECT]",
         "[SUFFIX]|[log.mix.sina.com.cn]|[REJECT]",
         "[SUFFIX]|[lstat.youku.com]|[REJECT]",
         "[SUFFIX]|[linkpage.cn]|[REJECT]",
