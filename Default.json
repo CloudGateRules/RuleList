@@ -1536,6 +1536,7 @@
         "[SUFFIX]|[market.xiaomi.com]|[REJECT]",
         "[SUFFIX]|[mct01.com]|[REJECT]",
         "[SUFFIX]|[mega.mlt01.com]|[REJECT]",
+        "[SUFFIX]|[minimob.com]|[REJECT]",
         "[SUFFIX]|[my5525.net]|[REJECT]",
         "[SUFFIX]|[media.tianjimedia.com]|[REJECT]",
         "[SUFFIX]|[media.yesky.com]|[REJECT]",
