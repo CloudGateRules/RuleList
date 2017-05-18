@@ -1,10 +1,10 @@
 {
     "Configuration": {
         "Author": "BurpSuite",
-        "Version": "4.0"
+        "Version": "5.0"
     },
     "Arguments": {
-        "MITM": "true,15F5092B,https://raw.githubusercontent.com/BurpSuite/CloudGate-List/master/Rule/MITM",
+        "MITM": "true,15F5092B,https://raw.githubusercontent.com/BurpSuite/RuleList/master/Example/MITM",
         "External": "true,BurpSuite@0.0.0.0:6170",
         "MacOS": "true,1.2.3.4,5.6.7.8,3040,5030",
         "DNS": "true,8.8.8.8,8.8.4.4"
@@ -22,20 +22,20 @@
     },
     "Info": {
         "SERVER": [
-            "SERVERNama,http,1.2.3.1,8081,User,Password1",
-            "SERVERNamb,https,1.2.3.2,8082,User,Password2,skip-cert-verify=true",
-            "SERVERNamc,socks5,1.2.3.3,8083,User,Password3",
-            "SERVERNamd,socks5-tls,1.2.3.4,8084,User,Password4,skip-cert-verify=true",
-            "SERVERName,custom,1.2.3.5,8085,chacha20,Password5,[Module]",
-            "SERVERNamf,custom,1.2.3.6,8086,chacha20,Password5,[Module],obfs=http,obfs-host=www.google.com",
-            "SERVERNamg,custom,1.2.3.6,8086,chacha20,Password5,[Module],tfo=true"
+            "[Surge]|SERVERNama,http,1.2.3.1,8081,User,Password1",
+            "[Surge]|SERVERNamb,https,1.2.3.2,8082,User,Password2,skip-cert-verify=true",
+            "[Surge]|SERVERNamc,socks5,1.2.3.3,8083,User,Password3",
+            "[Surge]|SERVERNamd,socks5-tls,1.2.3.4,8084,User,Password4,skip-cert-verify=true",
+            "[Surge]|SERVERName,custom,1.2.3.5,8085,chacha20,Password5,[Module]",
+            "[Surge]|SERVERNamf,custom,1.2.3.6,8086,chacha20,Password5,[Module],obfs=http,obfs-host=www.google.com",
+            "[Surge]|SERVERNamg,custom,1.2.3.6,8086,chacha20,Password5,[Module],tfo=true"
         ],
         "Group": [
-            "Proxya = select,SERVERNama,SERVERNamb,SERVERNamc,SERVERNamd,SERVERName",
-            "Proxyb = select,SERVERNama,SERVERNamb,SERVERNamc,SERVERNamd",
-            "Proxyc = select,SERVERNama,SERVERNamb,SERVERName",
-            "Proxyd = select,SERVERNamd,SERVERName",
-            "Autoxy = url-test,SERVERNama, SERVERNamb, url = http://www.gstatic.com/generate_204, interval = 600, tolerance = 200, timeout = 5"
+            "[Surge]|Proxya = select,SERVERNama,SERVERNamb,SERVERNamc,SERVERNamd,SERVERName",
+            "[Surge]|Proxyb = select,SERVERNama,SERVERNamb,SERVERNamc,SERVERNamd",
+            "[Surge]|Proxyc = select,SERVERNama,SERVERNamb,SERVERName",
+            "[Surge]|Proxyd = select,SERVERNamd,SERVERName",
+            "[Surge]|Autoxy = url-test,SERVERNama, SERVERNamb, url = http://www.gstatic.com/generate_204, interval = 600, tolerance = 200, timeout = 5"
         ]
     },
     "SUFFIX": {
