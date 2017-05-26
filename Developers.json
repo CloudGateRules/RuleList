@@ -938,6 +938,7 @@
         "[SUFFIX]|[bdstatic.com]|[DIRECT]",
         "[SUFFIX]|[bilibili.com]|[DIRECT]",
         "[SUFFIX]|[bing.com]|[DIRECT]",
+        "[DOMAIN]|[comic.iqiyi.com]|[DIRECT]",
         "[SUFFIX]|[caiyunapp.com]|[DIRECT]",
         "[SUFFIX]|[ccgslb.com]|[DIRECT]",
         "[SUFFIX]|[ccgslb.net]|[DIRECT]",
