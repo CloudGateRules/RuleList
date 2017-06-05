@@ -12,7 +12,7 @@
         "loglevel = notify"
     ],
     "Apple": [
-        "[SUFFIX]|[apple.com]|[Proxy]",
+        "<<SKIP",
         "[SUFFIX]|[test2.com]|[Proxy]"
     ],
     "Advanced": [
