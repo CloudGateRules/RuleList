@@ -15,7 +15,7 @@
     "Apple": [
         "[!Rule]",
         "<<Apple",
-        "[SUFFIX]|[apple.com]|[Proxy]",
+        "[SUFFIX]|[test2.com]|[Proxy]",
         "[SUFFIX]|[icloud.com]|[Proxy]",
         "[SUFFIX]|[itunes.com]|[Proxy]",
         "[SUFFIX]|[mzstatic.com]|[Proxy]",
