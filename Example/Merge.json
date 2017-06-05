@@ -19,7 +19,7 @@
         "[SUFFIX]|[icloud.com]|[Proxy]",
         "[SUFFIX]|[itunes.com]|[Proxy]",
         "[SUFFIX]|[mzstatic.com]|[Proxy]",
-        "[SUFFIX]|[icloud-content.com]|[Proxy]"
+        "<<Delete"
     ],
     "Advanced": [
         "<<PROXY",
