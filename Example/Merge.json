@@ -12,7 +12,6 @@
         "loglevel = notify"
     ],
     "Apple": [
-        "<<SKIP",
         "[SUFFIX]|[test2.com]|[Proxy]"
     ],
     "Advanced": [
