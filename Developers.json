@@ -18,8 +18,10 @@
         "[SUFFIX]|[apple.com]|[Proxy]",
         "[SUFFIX]|[icloud.com]|[Proxy]",
         "[SUFFIX]|[itunes.com]|[Proxy]",
+        "[SUFFIX]|[test1.com]|[Proxy]",
         "[SUFFIX]|[mzstatic.com]|[Proxy]",
-        "[SUFFIX]|[icloud-content.com]|[Proxy]"
+        "[SUFFIX]|[icloud-content.com]|[Proxy]",
+        "[SUFFIX]|[test2.com]|[Proxy]"
     ],
     "Advanced": [
         "<<PROXY",
