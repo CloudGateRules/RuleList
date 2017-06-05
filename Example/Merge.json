@@ -1,26 +1,16 @@
 {
     "Info": [
         "<<Version:1.0",
-        "<<Name:CloudGate Developers",
+        "<<Name:CloudGate Merge",
         "<<Email:service@async.be",
         "<<LastUpdate:2017-05-19 07:04:07"
     ],
     "General": [
-        "[!General]",
-        "bypass-system = true",
-        "skip-proxy = 10.0.0.0/8, 17.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16, localhost, *.local, *.crashlytics.com",
-        "bypass-tun = 10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/24, 172.16.0.0/12, 192.168.0.0/16",
-        "loglevel = notify"
     ],
     "Apple": [
         "[!Rule]",
         "<<Apple",
         "[SUFFIX]|[test.com]|[Proxy]",
-        "[SUFFIX]|[apple.com]|[Proxy]",
-        "[SUFFIX]|[icloud.com]|[Proxy]",
-        "[SUFFIX]|[itunes.com]|[Proxy]",
-        "[SUFFIX]|[mzstatic.com]|[Proxy]",
-        "[SUFFIX]|[icloud-content.com]|[Proxy]"
     ],
     "Advanced": [
         "<<PROXY",
