@@ -1,17 +1,25 @@
 {
     "Info": [
         "<<Version:1.0",
-        "<<Name:CloudGate Merge",
+        "<<Name:CloudGate Developers",
         "<<Email:service@async.be",
         "<<LastUpdate:2017-05-19 07:04:07"
     ],
     "General": [
+        "[!General]",
+        "bypass-system = true",
+        "skip-proxy = 10.0.0.0/8, 17.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16, localhost, *.local, *.crashlytics.com",
+        "bypass-tun = 10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/24, 172.16.0.0/12, 192.168.0.0/16",
+        "loglevel = notify"
     ],
     "Apple": [
         "[!Rule]",
         "<<Apple",
-        "[SUFFIX]|[test.com]|[Proxy]",
-        "[SUFFIX]|[test2.com]|[Proxy]",
+        "[SUFFIX]|[apple.com]|[Proxy]",
+        "[SUFFIX]|[icloud.com]|[Proxy]",
+        "[SUFFIX]|[itunes.com]|[Proxy]",
+        "[SUFFIX]|[mzstatic.com]|[Proxy]",
+        "[SUFFIX]|[icloud-content.com]|[Proxy]"
     ],
     "Advanced": [
         "<<PROXY",
@@ -3165,7 +3173,7 @@
         "^(http|https)://wenku.baidu.com/shifen/ - reject"
     ],
     "MITM": [
-        "test.com, m.aty.sohu.com, api.tv.sohu.com, mmg.aty.sohu.com, mbl.56.com, hui.sohu.com, api.zhihu.com, api.mobile.youku.com, appsdk.soku.com, www.zhihu.com, api2.getflex.co, gorgon.youdao.com, impservice.youdao.com, fanyi-app.baidu.com, ups.youku.com, wapwenku.baidu.com, wenku.baidu.com, *.dy103.com, async.be, oia.zhihu.com"
+        "m.aty.sohu.com, api.tv.sohu.com, mmg.aty.sohu.com, mbl.56.com, hui.sohu.com, api.zhihu.com, api.mobile.youku.com, appsdk.soku.com, www.zhihu.com, api2.getflex.co, gorgon.youdao.com, impservice.youdao.com, fanyi-app.baidu.com, ups.youku.com, wapwenku.baidu.com, wenku.baidu.com, *.dy103.com, async.be, oia.zhihu.com"
     ],
     "SKIP": [
         "<<SKIP"
