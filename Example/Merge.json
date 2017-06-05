@@ -11,6 +11,7 @@
         "[!Rule]",
         "<<Apple",
         "[SUFFIX]|[test.com]|[Proxy]",
+        "[SUFFIX]|[test2.com]|[Proxy]",
     ],
     "Advanced": [
         "<<PROXY",
