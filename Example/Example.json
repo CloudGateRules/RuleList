@@ -50,6 +50,7 @@
     },
     "Other": {
         "Module": "https://raw.githubusercontent.com/BurpSuite/RuleList/master/Module/Module",
-        "List": "https://raw.githubusercontent.com/BurpSuite/RuleList/master/Default.json"
+        "List": "https://raw.githubusercontent.com/BurpSuite/RuleList/master/Default.json",
+        "Merge": "https://raw.githubusercontent.com/CloudGateRules/RuleList/master/Example/Merge.json"
     }
 }
