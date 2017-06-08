@@ -1,10 +1,10 @@
 {
-    "Info": [
-        "<<Version:1.0",
-        "<<Name:CloudGate Developers",
-        "<<Email:service@async.be",
-        "<<LastUpdate:2017-05-19 07:04:07"
-    ],
+    "Info": {
+        "Version":1,
+        "Name":"CloudGate Developers",
+        "Email":"service@async.be",
+        "LastUpdate":"2017-05-19 07:04:07"
+    },
     "General": [
         "[!General]",
         "bypass-system = true",
