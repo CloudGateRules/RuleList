@@ -76,7 +76,6 @@
         "^(http|https)://Merge-Rewrite.com/[AUTHKEY] - reject"
     ],
     "MITM": [
-        "test.com"
     ],
     "SKIP": [
         "<<SKIP"
