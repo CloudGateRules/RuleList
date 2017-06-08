@@ -1250,7 +1250,6 @@
         "[SUFFIX]|[baichuan.baidu.com]|[REJECT]",
         "[SUFFIX]|[bobo.163.com]|[REJECT]",
         "[SUFFIX]|[biddingos.com]|[REJECT]",
-        "[DOMAIN]|[bce.baidu.com]|[REJECT]",
         "[SUFFIX]|[biddingx.com]|[REJECT]",
         "[DOMAIN]|[bam.nr-data.net]|[REJECT]",
         "[SUFFIX]|[bxb.oupeng.com]|[REJECT]",
