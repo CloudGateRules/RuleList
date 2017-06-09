@@ -2997,8 +2997,12 @@
         "r9---sn-a5m7znez.googlevideo.com"
     ],
     "Rewrite": [
+        "[!Header Rewrite]",
+        "<<Header Rewrite",
+        "^http://example.com header-del DNT",
+        "^http://example.com header-add DNT 1",
         "[!URL Rewrite]",
-        "<<Rewrite",
+        "<<URL Rewrite",
         "<<Rewrite=>Google_Service_HTTPS_Jump",
         "^(http|https)://(www.)?g.cn https://www.google.com 302",
         "^(http|https)://(www.)?google.cn https://www.google.com 302",
