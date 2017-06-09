@@ -2997,11 +2997,6 @@
         "r9---sn-a5m7znez.googlevideo.com"
     ],
     "Rewrite": [
-        "[!Header Rewrite]",
-        "<<Header Rewrite",
-        "^(http|https)://example.com header-del DNT",
-        "^(http|https)://example.com header-add DNT 1",
-        "^(http|https)://async.be header-add Signature [AUTHKEY]",
         "[!URL Rewrite]",
         "<<URL Rewrite",
         "<<Rewrite=>Google_Service_HTTPS_Jump",
@@ -3175,7 +3170,12 @@
         "<<Rewrite=>BaiduWenku",
         "^(http|https)://wapwenku.baidu.com/view/fengchaoTwojump/ - reject",
         "^(http|https)://wapwenku.baidu.com/view/fengchao/ - reject",
-        "^(http|https)://wenku.baidu.com/shifen/ - reject"
+        "^(http|https)://wenku.baidu.com/shifen/ - reject",
+        "[!Header Rewrite]",
+        "<<Header Rewrite",
+        "^http://example.com header-del DNT",
+        "^http://example.com header-add X-CallBack true",
+        "^(http|https)://async.be header-add Signature [AUTHKEY]"
     ],
     "MITM": [
         "m.aty.sohu.com, api.tv.sohu.com, mmg.aty.sohu.com, mbl.56.com, hui.sohu.com, api.zhihu.com, api.mobile.youku.com, appsdk.soku.com, www.zhihu.com, api2.getflex.co, gorgon.youdao.com, impservice.youdao.com, fanyi-app.baidu.com, ups.youku.com, wapwenku.baidu.com, wenku.baidu.com, *.dy103.com, async.be, oia.zhihu.com"
