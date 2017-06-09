@@ -1840,10 +1840,10 @@
     "PROCESS": [
         "<<PROCESS",
         "[PROCESS]|[QQ]|[DIRECT]",
+        "[PROCESS]|[Advert]|[REJECT]",
         "[PROCESS]|[WeChat]|[DIRECT]",
         "[PROCESS]|[Twitter]|[Proxy]",
-        "[PROCESS]|[Instagram]|[Proxy]",
-        "[PROCESS]|[Advert]|[REJECT]",
+        "[PROCESS]|[Instagram]|[Proxy]"
     ],
     "URLREGEX": [
         "<<URLREGEX",
