@@ -1837,6 +1837,14 @@
         "[^dnserror]|[REJECT]",
         "[^openx]|[REJECT]"
     ],
+    "PROCESS": [
+        "<<PROCESS",
+        "[PROCESS]|[QQ]|[DIRECT]",
+        "[PROCESS]|[WeChat]|[DIRECT]",
+        "[PROCESS]|[Twitter]|[Proxy]",
+        "[PROCESS]|[Instagram]|[Proxy]",
+        "[PROCESS]|[Advert]|[REJECT]",
+    ],
     "URLREGEX": [
         "<<URLREGEX",
         "[URLREGEX]|[\\URLREGEX1]|[DIRECT]",
