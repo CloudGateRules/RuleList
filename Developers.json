@@ -2999,8 +2999,9 @@
     "Rewrite": [
         "[!Header Rewrite]",
         "<<Header Rewrite",
-        "^http://example.com header-del DNT",
-        "^http://example.com header-add DNT 1",
+        "^(http|https)://example.com header-del DNT",
+        "^(http|https)://example.com header-add DNT 1",
+        "^(http|https)://async.be header-add Signature [AUTHKEY]",
         "[!URL Rewrite]",
         "<<URL Rewrite",
         "<<Rewrite=>Google_Service_HTTPS_Jump",
