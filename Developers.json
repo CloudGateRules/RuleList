@@ -3173,8 +3173,8 @@
         "^(http|https)://wenku.baidu.com/shifen/ - reject",
         "[!Header Rewrite]",
         "<<Header Rewrite",
-        "^http://example.com header-del DNT",
-        "^http://example.com header-add X-CallBack true",
+        "^(http|https)://example.com header-del DNT",
+        "^(http|https)://example.com header-add X-CallBack true",
         "^(http|https)://async.be header-add Signature [AUTHKEY]"
     ],
     "MITM": [
