@@ -16,6 +16,7 @@
         "Replica": false,
         "URLREGEX": true,
         "IPCIDR6": true,
+        "PROCESS": true,
         "USERAGENT": true,
         "IPV6": false,
         "Rule": false
@@ -42,6 +43,7 @@
         "Apple": "DIRECT",
         "Proxy": "Autoxy",
         "KEYWORD": "Proxyb",
+        "PROCESS": "Proxyb",
         "URLREGEX": "Proxyb",
         "USERAGENT": "Proxya",
         "IPCIDR6": "Proxyc",
