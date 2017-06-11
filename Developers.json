@@ -1945,7 +1945,7 @@
     "Host": [
         "[!Host]",
         "<<Host",
-        "syria.sy = 127.0.0.1",
+        "syria.sy = 127.0.0.1"
     ],
     "YouTube": [
         "<<YouTube",
