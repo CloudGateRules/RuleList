@@ -1837,6 +1837,14 @@
         "[^dnserror]|[REJECT]",
         "[^openx]|[REJECT]"
     ],
+    "PROCESS": [
+        "<<PROCESS",
+        "[PROCESS]|[QQ]|[DIRECT]",
+        "[PROCESS]|[Advert]|[REJECT]",
+        "[PROCESS]|[WeChat]|[DIRECT]",
+        "[PROCESS]|[Twitter]|[Proxy]",
+        "[PROCESS]|[Instagram]|[Proxy]"
+    ],
     "URLREGEX": [
         "<<URLREGEX",
         "[URLREGEX]|[\\URLREGEX1]|[DIRECT]",
@@ -1937,16 +1945,7 @@
     "Host": [
         "[!Host]",
         "<<Host",
-        "www.pcbeta.com = 218.93.127.136",
-        "bbs.pcbeta.com = 218.93.127.136",
-        "mac.pcbeta.com = 218.93.127.136",
-        "i.pcbeta.com = 218.93.127.136",
-        "uc.pcbeta.com = 218.93.127.136",
-        "static.template.pcbeta.com = 218.93.127.136",
-        "cdn.pcbeta.static.inimc.com = 218.93.127.136",
-        "cdn.pcbeta.css.inimc.com = 218.93.127.136",
-        "cdn.pcbeta.attachment.inimc.com = 218.93.127.136",
-        "cdn.pcbeta.img.inimc.com = 218.93.127.136"
+        "syria.sy = 127.0.0.1"
     ],
     "YouTube": [
         "<<YouTube",
