@@ -18,6 +18,7 @@
         "IPCIDR6": true,
         "PROCESS": true,
         "USERAGENT": true,
+        "Header": true,
         "IPV6": false,
         "Rule": false
     },
