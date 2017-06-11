@@ -3171,7 +3171,7 @@
         "^(http|https)://wapwenku.baidu.com/view/fengchao/ - reject",
         "^(http|https)://wenku.baidu.com/shifen/ - reject"
     ],
-    Header: [
+    "Header": [
         "[!Header Rewrite]",
         "<<Header Rewrite",
         "^(http|https)://example.com header-del DNT",
