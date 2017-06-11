@@ -75,6 +75,13 @@
     "Rewrite": [
         "^(http|https)://Merge-Rewrite.com/[AUTHKEY] - reject"
     ],
+    "Header": [
+        "[!Header Rewrite]",
+        "<<Header Rewrite",
+        "^(http|https)://example.com header-del DNT",
+        "^(http|https)://example.com header-add X-CallBack true",
+        "^(http|https)://async.be header-add Signature [AUTHKEY]"
+    ],
     "MITM": [
         "m.aty.sohu.com$$",
         "api.tv.sohu.com$$",
