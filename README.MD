@@ -35,9 +35,6 @@
 
 规则列表语法
 ------
-规则列表支持更多参数,也就是在`SUFFIX`后面追加其他参数,如有需要可以在`SUFFIX`后面添加`\|[参数]`
-比如说`KEYWORD`条目`[^example]\|[DIRECT]\|[force-remote-dns]`,后面可以增加`force-remote-dns`
-`Rewrite`及`Header Rewrite`规则条目需要进行转义否则会出现错误!<br<
 |规则列表语法|功能描述|
 |----|-----|
 |`[SUFFIX]\|[Example.com]\|[DIRECT]`|SUFFIX规则条目|
