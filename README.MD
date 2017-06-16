@@ -45,14 +45,14 @@
 |`[^Example]\|[DIRECT]\|[force-remote-dns]`|KEYWORD规则条目|
 |`[PROCESS]\|[Example]\|[Proxy]`|PROCESS-NAME规则条目|
 |`[URLREGEX]\|[\\Example]\|[DIRECT]`|URL-REGEX规则条目|
-|`[USERAGENT]\|[Example*]\|[DIRECT]`|USER-AGENT规则条目|
+|`[USERAGENT]\|[Example\*]\|[DIRECT]`|USER-AGENT规则条目|
 |`[IPCIDR6]\|[2006::/16]\|[DIRECT]`|IP-CIDR6规则条目|
 |`[10.0.0.0/8]\|[DIRECT]`|IPCIDR规则条目|
-|`[$FINAL]\|[Proxy]`|Other规则条目|
+|`[\$FINAL]\|[Proxy]`|Other规则条目|
 |`syria.sy = 127.0.0.1`|Host规则条目|
 |`r1---sn-i3b7kn7d.googlevideo.com`|YouTube规则条目|
-|`^(http|https)://E\\d{2}.xample.com - reject`|Rewrite规则条目|
-|`^(http|https)://example.com header-del DNT`|HeaderRewrite规则条目|
+|`^(http|https):\/\/E\\d{2}.xample.com - reject`|Rewrite规则条目|
+|`^(http|https):\/\/example.com header-del DNT`|HeaderRewrite规则条目|
 |`example.com$$`|MITM规则条目|
 |`<<SKIP`|跳过规则条目|
 |`[AUTHKEY]`|AUTHKEY定位符|
