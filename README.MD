@@ -35,6 +35,10 @@
 
 规则列表语法
 ------
+规则列表支持更多参数,可以在`SUFFIX`后面添加其他参数,如有需要可以在`SUFFIX`后面添加`|[参数]`格式<br>
+比如说`KEYWORD`条目`[^example]\|[DIRECT]\|[force-remote-dns]`,后面可以增加`force-remote-dns`<br>
+`Rewrite`及`Header Rewrite`规则条目需要进行转义否则会出现错误!<br>
+
 |规则列表语法|功能描述|
 |----|-----|
 |`[SUFFIX]\|[Example.com]\|[DIRECT]`|SUFFIX规则条目|
@@ -42,7 +46,7 @@
 |`[^Example]\|[DIRECT]\|[force-remote-dns]`|KEYWORD规则条目|
 |`[PROCESS]\|[Example]\|[Proxy]`|PROCESS-NAME规则条目|
 |`[URLREGEX]\|[\\Example]\|[DIRECT]`|URL-REGEX规则条目|
-|`[USERAGENT]\|[Example\*]\|[DIRECT]`|USER-AGENT规则条目|
+|`[USERAGENT]\|[Example*]\|[DIRECT]`|USER-AGENT规则条目|
 |`[IPCIDR6]\|[2006::/16]\|[DIRECT]`|IP-CIDR6规则条目|
 |`[10.0.0.0/8]\|[DIRECT]`|IPCIDR规则条目|
 |`[$FINAL]\|[Proxy]`|Other规则条目|
