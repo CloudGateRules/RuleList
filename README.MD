@@ -30,37 +30,41 @@
 ------
 |规则列表名称|规则列表地址|
 |----|-----|
-|默认规则列表|https://raw.githubusercontent.com/BurpSuite/RuleList/master/Default.json|
-|开发规则列表|https://raw.githubusercontent.com/BurpSuite/RuleList/master/Developers.json|
+|默认规则列表|https://raw.githubusercontent.com/CloudGateRules/RuleList/master/Default.json|
+|开发规则列表|https://raw.githubusercontent.com/CloudGateRules/RuleList/master/Developers.json|
 
 规则列表语法
 ------
+规则列表支持更多参数,也就是在`SUFFIX`后面追加其他参数,如有需要可以在`SUFFIX`后面添加`\|[参数]`
+比如说`KEYWORD`条目`[^example]\|[DIRECT]\|[force-remote-dns]`,后面可以增加`force-remote-dns`
+`Rewrite`及`Header Rewrite`规则条目需要进行转义否则会出现错误!
 |规则列表语法|功能描述|
 |----|-----|
-|`[AUTHKEY]`|AUTHKEY字段,防止接口被拷贝盗用|
-|`<<Example`|注释字段|
-|`[!Example]`|规则块字段|
-|`[$Example]`|其他字段|
-|`[^Example]`|关键词字段|
-|`[SUFFIX]\|[apple.com]\|[DIRECT]`|每个规则字段使用方括号包裹|
-|`example.com\\/example`|正则表达式需要转义|
-|`[IPCIDR6]`|等价IP-CIDR6参数|
-|`[URLREGEX]`|等价URL-REGEX参数|
-|`[USERAGENT]`|等价USER-AGENT参数|
-|`[DOMAIN]\|[apple.com]\|[DIRECT]\|[]`|DOMAIN第四个字段为预留字段适配新参数,可以为空,可以为多个参数|
-|`[SUFFIX]\|[apple.com]\|[DIRECT]\|[]`|SUFFIX第四个字段为预留字段适配新参数,可以为空,可以为多个参数|
-|`[^example]\|[DIRECT]\|[force-remote-dns]`|KEYWORD第三个字段为预留字段适配新参数,可以为空,可以为多个参数|
-|`[10.0.0.0/8]\|[DIRECT]\|[no-resolve]`|IP-CIDR第三个字段为预留字段,可以为空,可以为多个参数|
-|`[URLREGEX]\|[\\Example]\|[DIRECT]\|[]`|URL-REGEX第四个字段为预留字段适配新参数,可以为空,可以为多个参数|
-|`[USERAGENT]\|[Example*]\|[DIRECT]\|[]`|USER-AGENT第四个字段为预留字段适配新参数,可以为空,可以为多个参数|
-|`[IPCIDR6]\|[2007::/16]\|[REJECT]\|[]`|IP-CIDR6第四个字段为预留字段适配新参数,可以为空,可以为多个参数|
+|`[SUFFIX]\|[Example.com]\|[DIRECT]`|SUFFIX规则条目|
+|`[DOMAIN]\|[Example.com]\|[DIRECT]`|DOMAIN规则条目|
+|`[^Example]\|[DIRECT]\|[force-remote-dns]`|KEYWORD规则条目|
+|`[PROCESS]\|[Example]\|[Proxy]`|PROCESS-NAME规则条目|
+|`[URLREGEX]\|[\\Example]\|[DIRECT]`|URL-REGEX规则条目|
+|`[USERAGENT]\|[Example*]\|[DIRECT]`|USER-AGENT规则条目|
+|`[IPCIDR6]\|[2006::/16]\|[DIRECT]`|IP-CIDR6规则条目|
+|`[10.0.0.0/8]\|[DIRECT]`|IPCIDR规则条目|
+|`[$FINAL]|[Proxy]`|Other规则条目|
+|`syria.sy = 127.0.0.1`|Host规则条目|
+|`r1---sn-i3b7kn7d.googlevideo.com`|YouTube规则条目|
+|`^(http|https)://E\\d{2}.xample.com - reject`|Rewrite规则条目|
+|`^(http|https)://example.com header-del DNT`|HeaderRewrite规则条目|
+|`example.com$$`|MITM规则条目|
+|`<<SKIP`|跳过规则条目|
+|`[AUTHKEY]`|AUTHKEY定位符|
+|`<<Example`|注释内容条目|
+|`[!Example]`|规则块行首|
 
 规则列表字段
 ------
 |规则列表块|功能描述|
 |----|-----|
-|`Info`|规则列表描述信息字段|
-|`General`|General规则块|
+|`Info`|规则列表描述条目|
+|`General`|General规则条目|
 |`Apple`|用户选择SUFFIX规则块\|Proxy将替换为用户选择的规则组|
 |`Advanced`|用户选择SUFFIX规则块\|Proxy将替换为用户选择的规则组|
 |`Basic`|用户选择SUFFIX规则块\|Proxy将替换为用户选择的规则组|
