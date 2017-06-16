@@ -70,7 +70,7 @@
 |`General`|General规则块|
 |`Apple`|Apple规则块|
 |`Advanced`|Proxy[Advanced]规则块|
-|`Basic`|Proxy[Basic规则块]|
+|`Basic`|Proxy[Basic]规则块|
 |`DIRECT`|DIRECT规则块|
 |`REJECT`|REJECT规则块|
 |`KEYWORD`|KEYWORD规则块|
