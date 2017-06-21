@@ -3174,6 +3174,7 @@
         "^(http|https)://delete-api2.getflex.co/user/profileSettings/info - reject",
         "<<Rewrite=>Xiami",
         "^(http|https)://spark.api.xiami.com/api http://async.be/Interface?AuthKey=[AUTHKEY]& header",
+        "^(http|https)://spark.xiami.com/api https://async.be/Interface?AuthKey=[AUTHKEY]& header",
         "<<Rewrite=>BaiduWenku",
         "^(http|https)://wapwenku.baidu.com/view/fengchaoTwojump/ - reject",
         "^(http|https)://wapwenku.baidu.com/view/fengchao/ - reject",
