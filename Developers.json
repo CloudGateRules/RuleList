@@ -3206,7 +3206,8 @@
         "wenku.baidu.com$$",
         "*.dy103.com$$",
         "async.be$$",
-        "oia.zhihu.com$$"
+        "oia.zhihu.com$$",
+        "spark.xiami.com$$"
     ],
     "SKIP": [
         "<<SKIP"
