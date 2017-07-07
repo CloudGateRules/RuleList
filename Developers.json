@@ -1684,7 +1684,6 @@
         "[SUFFIX]|[simaba.taobao.com]|[REJECT]",
         "[SUFFIX]|[slog.sina.cn]|[REJECT]",
         "[DOMAIN]|[show.re.taobao.com]|[REJECT]",
-        "[DOMAIN]|[sp1.baidu.com]|[REJECT]",
         "[SUFFIX]|[ssp-ces.gameloft.com]|[REJECT]",
         "[SUFFIX]|[show.58dtpf.com]|[REJECT]",
         "[SUFFIX]|[sohu.wrating.com]|[REJECT]",
