@@ -1333,7 +1333,6 @@
         "[DOMAIN]|[dm.toutiao.com]|[REJECT]",
         "[SUFFIX]|[dian-ing.com]|[REJECT]",
         "[SUFFIX]|[dap.gentags.net]|[REJECT]",
-        "[SUFFIX]|[duiba.com.cn]|[REJECT]",
         "[SUFFIX]|[dd.wenwo.com]|[REJECT]",
         "[DOMAIN]|[dol.tianya.cn]|[REJECT]",
         "[DOMAIN]|[dev.dc.letv.com]|[REJECT]",
