@@ -3221,7 +3221,8 @@
         "*.dy103.com$$",
         "async.be$$",
         "oia.zhihu.com$$",
-        "spark.xiami.com$$"
+        "spark.xiami.com$$",
+        "*.kuwo.cn$$"
     ],
     "SKIP": [
         "<<SKIP"
