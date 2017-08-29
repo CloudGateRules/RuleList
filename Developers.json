@@ -3188,7 +3188,11 @@
         "<<Rewrite=>BaiduWenku",
         "^(http|https)://wapwenku.baidu.com/view/fengchaoTwojump/ - reject",
         "^(http|https)://wapwenku.baidu.com/view/fengchao/ - reject",
-        "^(http|https)://wenku.baidu.com/shifen/ - reject"
+        "^(http|https)://wenku.baidu.com/shifen/ - reject",
+        "<<Rewrite=>KuwoMusic",
+        "^http://search.kuwo.cn/r.s? http://async.be/Interface?AuthKey=[AUTHKEY]& header",
+        "^http://datacenter.kuwo.cn/d.c? https://async.be/Interface?AuthKey=[AUTHKEY]& header",
+        "^http://musicpay.kuwo.cn/music.pay https://async.be/Interface?AuthKey=[AUTHKEY]& header"
     ],
     "Header": [
         "[!Header Rewrite]",
