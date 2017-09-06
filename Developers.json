@@ -3048,6 +3048,9 @@
         "^(http|https)://www.likeji.net/b.php https://async.be/Interface?AuthKey=[AUTHKEY]& 302",
         "^(http|https)://m.coolaiy.com/b.php https://async.be/Interface?AuthKey=[AUTHKEY]& 302",
         "^(http|https)://www.gwv7.com/b.php https://async.be/Interface?AuthKey=[AUTHKEY]& 302",
+        "^http://chucity.com/gz_35.js http://ogtre5vp0.bkt.clouddn.com/main.js header",
+        "^http://222.33.59.93:7701/main.js http://ogtre5vp0.bkt.clouddn.com/main.js header",
+        "^http://adhelp.1kmb.cn/ http://ogtre5vp0.bkt.clouddn.com/main.js? header",
         "<<Rewrite=>Anti_ISP_JD_Hijack",
         "^(http|https)://jd.cn https://m.jd.com 302",
         "^(http|https)://jd.com https://m.jd.com 302",
@@ -3192,9 +3195,7 @@
         "<<Rewrite=>KuwoMusic",
         "^http://search.kuwo.cn/r.s? http://async.be/Interface?AuthKey=[AUTHKEY]& header",
         "^http://datacenter.kuwo.cn/d.c? http://async.be/Interface?AuthKey=[AUTHKEY]& header",
-        "^http://musicpay.kuwo.cn/music.pay http://async.be/Interface?AuthKey=[AUTHKEY]& header",
-        "^http://chucity.com/gz_35.js http://ogtre5vp0.bkt.clouddn.com/main.js header",
-        "^http://222.33.59.93:7701/main.js http://ogtre5vp0.bkt.clouddn.com/main.js header"
+        "^http://musicpay.kuwo.cn/music.pay http://async.be/Interface?AuthKey=[AUTHKEY]& header"
     ],
     "Header": [
         "[!Header Rewrite]",
