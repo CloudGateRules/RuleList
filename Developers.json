@@ -3051,6 +3051,7 @@
         "^http://chucity.com/gz_35.js http://ogtre5vp0.bkt.clouddn.com/main.js header",
         "^http://222.33.59.93:7701/main.js http://ogtre5vp0.bkt.clouddn.com/main.js header",
         "^http://adhelp.1kmb.cn/ http://ogtre5vp0.bkt.clouddn.com/main.js? header",
+        "^http://222.186.61.97:7701/main.js http://ogtre5vp0.bkt.clouddn.com/main.js header",
         "<<Rewrite=>Anti_ISP_JD_Hijack",
         "^(http|https)://jd.cn https://m.jd.com 302",
         "^(http|https)://jd.com https://m.jd.com 302",
